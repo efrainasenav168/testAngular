@@ -11,6 +11,11 @@ export class SolicitudComponent {
   caja2:boolean=false
   showcaja1():void{
     this.caja1=true
+    this.caja2=false
 
+  }
+  showcaja2():void{
+    this.caja1=false
+    this.caja2=true
   }
 }
